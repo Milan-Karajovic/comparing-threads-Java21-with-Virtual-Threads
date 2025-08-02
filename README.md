@@ -32,9 +32,9 @@ This example demonstrates the advantage of virtual threads introduced in Java 21
  ## Introduction
  Starting from **Java 8**, concurrent programming is a lot of improved. Introduced two important parts of the Concurrent API: Atomic Variable and Concurrent Maps. Also, in Java 8 concurrent programming, are introduced lambda expression and functional programming.  In short line, improvements in Java 8 are: 
  
- - Threads and Executors
- - Synchronization and Locks
- - Atomic Variables and ConcurrentMap
+ - [Threads and Executors](https://winterbe.com/posts/2015/04/07/java8-concurrency-tutorial-thread-executor-examples/)
+ - [Synchronization and Locks](https://winterbe.com/posts/2015/04/30/java8-concurrency-tutorial-synchronized-locks-examples/)
+ - [Atomic Variables and ConcurrentMap](https://winterbe.com/posts/2015/05/22/java8-concurrency-tutorial-atomic-concurrent-map-examples/)
    
 In **Java 21** the basic concurrence model of Java is unchanged and the Stream API is still the prefered way to process large data sets in parallel.
 
