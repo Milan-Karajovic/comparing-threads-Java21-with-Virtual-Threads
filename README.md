@@ -129,3 +129,10 @@ The difference is very obvious when we have 1_000_000 tasks. It is shown in the 
 ![Alt text](Documentation/Comparation.jpg)
 
 **I am sure, after this clarification, if your application process a lot of tasks using concurrent API, you will definitely move on Java 21 and start to use virtual threads, which will in many ways improve performance of your application.**
+
+## Support
+
+- **Milan Karajović**
+- **email:** milan.karajovic.rs@gmail.com
+- **Portfolio:** [https://milan.karajovic.rs](https://milan.karajovic.rs/)
+- **LinkedIn:** [https://www.linkedin.com/in/milan-karajovic-java-angular-security-cloud-architect/](https://www.linkedin.com/in/milan-karajovic-java-angular-security-cloud-architect/)
