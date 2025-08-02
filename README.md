@@ -66,7 +66,7 @@ ExecutorService executor = Executors.newVirtualThreadPerTaskExecutor();
 
 
 
-## Conclusion
+## Example with comparation
 
 Virtual threads only consume OS threads while performing calculations on the CPU. A virtual thread can be mounted/unmounted on different carriers over the course of its lifetime. Typically, a virtual thread will unmount when it blocks (e.g. an I/O or database operation). When the blocking operation is completed, the virtual thread is mounted on any available carrier. The mounting and unmounting of virtual threads happens frequently and transparently without blocking any OS threads.
 
@@ -116,6 +116,11 @@ Test results on my PC:
 ![Alt text](Documentation/VirtualThreadPerTask01.jpg)
 
 ![Alt text](Documentation/VirtualThreadPerTask02.jpg)
+
+
+
+
+## Conclusion
 
 You see clear difference between the **duration time in ms** which different implementation of the executor spent to process all NUMBER_OF_TASKS. Also, you can experiment with different values for NUMBER_OF_TASKS. **We can see clear difference when we have big value for the NUMBER_OF_TASKS, how faster virtual threads process big value of the number of the tasks.**
 
