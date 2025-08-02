@@ -66,7 +66,7 @@ ExecutorService executor = Executors.newVirtualThreadPerTaskExecutor();
 
 
 
-## Example with comparation
+## Example with comparison
 
 Virtual threads only consume OS threads while performing calculations on the CPU. A virtual thread can be mounted/unmounted on different carriers over the course of its lifetime. Typically, a virtual thread will unmount when it blocks (e.g. an I/O or database operation). When the blocking operation is completed, the virtual thread is mounted on any available carrier. The mounting and unmounting of virtual threads happens frequently and transparently without blocking any OS threads.
 
