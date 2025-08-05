@@ -57,7 +57,7 @@ Virtual thread using the idea applied in Virtual Ram memory. Illusion of plentif
 
 **Virtual threads** are not tied to any particular OS thread. A virtual thread can run any code that a platform thread can run. It is good, because existing Java code that processes requests will easily run in a virtual thread. Virtual threads exist on platform threads. These platform threads (“carriers”) are then scheduled by the OS as usual.
 
-For example, executor with Virtual thread you can create for example:
+For example, executor with a Virtual thread you can create like this:
 
 ```java
 ExecutorService executor = Executors.newVirtualThreadPerTaskExecutor();
